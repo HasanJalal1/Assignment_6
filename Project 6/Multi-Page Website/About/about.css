@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    background-color: #f0f4f5;
+}
+
+nav img {
+    width: 10vw;
+}
+
+nav {
+    height: 16vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 48px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    height: 84vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5%;
+}
+
+.Description {
+    text-align: center;
+    width: 50%;
+}
+
+.Description h1 {
+    color: #20BC7E;
+    margin-bottom: 19px;
+}
+
+.Description p {
+    font-size: 20px;
+    font-weight: 400;
+    width: 91%;
+    margin-left: 20px;
+}
+
+.achievement {
+    display: flex;
+    align-items: center;
+    gap: 51px;
+    margin-top: 51px;
+}
+
+.achievement_Card {
+    align-items: center;
+    box-shadow: 0 0 10px black;
+    width: 201px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 101px;
+}
+
+.achievement_Card span {
+    color: #20BC7E;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.achievement_Card p {
+    font-size: 22px;
+    font-weight: 500;
+}
